@@ -1,12 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="title desc">
-<title id="title">openUrain — Building software for real needs.</title><desc id="desc">An editorial blue and white composition with translucent glass geometry.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fbfdff"/><stop offset="1" stop-color="#dceaff"/></linearGradient><linearGradient id="glass" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".92"/><stop offset="1" stop-color="#a6c9ff" stop-opacity=".32"/></linearGradient><filter id="shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="15" stdDeviation="18" flood-color="#1744b6" flood-opacity=".20"/></filter></defs>
-<rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-<circle cx="963" cy="155" r="132" fill="none" stroke="#1744b6" stroke-opacity=".14"/><circle cx="963" cy="155" r="150" fill="none" stroke="#1744b6" stroke-opacity=".08"/>
-<g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
-<text x="64" y="82" font-size="24" font-weight="600" fill="#1744b6">openUrain</text>
-<text x="64" y="156" font-size="60" font-weight="700" fill="#101b30" letter-spacing="-2">Building software</text>
-<text x="64" y="224" font-size="60" font-weight="600" fill="#1744b6" letter-spacing="-2">for real needs.</text>
-</g>
-<g filter="url(#shadow)" stroke="#fff" stroke-width="2" stroke-linejoin="round"><path d="M790 72 948 36 1072 112 918 152Z" fill="url(#glass)"/><path d="M790 72 918 152 918 280 790 200Z" fill="#c6ddff" fill-opacity=".75"/><path d="M918 152 1072 112 1072 240 918 280Z" fill="url(#glass)"/><path d="M860 112 1014 72 1134 145 980 187Z" fill="url(#glass)"/></g>
-<g stroke="#1744b6" stroke-width="4" stroke-linecap="round" fill="none"><path d="M948 189l18 18 40-42"/><path d="M830 132v48m22-34v48"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="ou-title ou-desc">
+  <title id="ou-title">openUrain — Building software for real needs.</title>
+  <desc id="ou-desc">Bright cold-white and cobalt-blue optical glass banner for openUrain featuring hexagonal architectural geometry and layered translucent glass planes.</desc>
+  <defs>
+    <linearGradient id="ou-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="56%" stop-color="#f2f7ff"/>
+      <stop offset="100%" stop-color="#e1eeff"/>
+    </linearGradient>
+    <radialGradient id="ou-auraBlue" cx="78%" cy="32%" r="48%">
+      <stop offset="0%" stop-color="#2d9cff" stop-opacity="0.24"/>
+      <stop offset="52%" stop-color="#1546c8" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ou-auraSoft" cx="14%" cy="90%" r="42%">
+      <stop offset="0%" stop-color="#1546c8" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ou-cobaltGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0e359e"/>
+      <stop offset="55%" stop-color="#1546c8"/>
+      <stop offset="100%" stop-color="#2484ec"/>
+    </linearGradient>
+    <linearGradient id="ou-glassLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="60%" stop-color="#eaf3ff" stop-opacity="0.62"/>
+      <stop offset="100%" stop-color="#c6ddff" stop-opacity="0.34"/>
+    </linearGradient>
+    <linearGradient id="ou-prismFaceBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3aa3ff"/>
+      <stop offset="100%" stop-color="#1546c8"/>
+    </linearGradient>
+    <linearGradient id="ou-prismFaceFrost" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#d7e6fc" stop-opacity="0.88"/>
+    </linearGradient>
+    <filter id="ou-glassShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#102c72" flood-opacity="0.18"/>
+    </filter>
+    <filter id="ou-prismShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#0e359e" flood-opacity="0.24"/>
+    </filter>
+    <clipPath id="ouClip">
+      <rect x="1" y="1" width="1198" height="358" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#ouClip)">
+    <rect width="1200" height="360" rx="24" fill="url(#ou-bg)"/>
+    <ellipse cx="940" cy="128" rx="440" ry="260" fill="url(#ou-auraBlue)">
+      <animate attributeName="cx" values="940;908;940" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="180" cy="316" rx="340" ry="180" fill="url(#ou-auraSoft)"/>
+
+    <!-- Precision Hexagonal Brand Reticle -->
+    <g fill="none" stroke="#1546c8">
+      <polygon points="944,30 1076,106 1076,258 944,334 812,258 812,106" stroke-opacity="0.14" stroke-width="1"/>
+      <polygon points="944,68 1044,126 1044,238 944,296 844,238 844,126" stroke-opacity="0.10" stroke-width="1"/>
+      <line x1="812" y1="106" x2="1076" y2="258" stroke-opacity="0.08" stroke-width="1"/>
+      <line x1="944" y1="10" x2="944" y2="350" stroke-opacity="0.08" stroke-width="1"/>
+    </g>
+
+    <!-- Left Editorial Identity -->
+    <g transform="translate(64, 52)">
+      <rect width="308" height="32" rx="16" fill="#ffffff" fill-opacity="0.90" stroke="#1546c8" stroke-opacity="0.18" stroke-width="1"/>
+      <rect x="14" y="12" width="8" height="8" rx="2" transform="rotate(45 18 16)" fill="#1546c8"/>
+      <text x="32" y="20.5" font-family="system-ui, -apple-system, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="700" fill="#1546c8" letter-spacing="0.9">OPENURAIN · OPEN-SOURCE STUDIO</text>
+    </g>
+
+    <g font-family="system-ui, -apple-system, 'Segoe UI', Inter, sans-serif">
+      <text x="64" y="172" font-size="58" font-weight="700" fill="#0b1733" letter-spacing="-2.2">Building software</text>
+      <text x="64" y="236" font-size="58" font-weight="700" fill="url(#ou-cobaltGrad)" letter-spacing="-2.2">for real needs.</text>
+      <text x="64" y="290" font-family="system-ui, -apple-system, 'Microsoft YaHei UI', 'PingFang SC', sans-serif" font-size="17" font-weight="500" fill="#425470">让需求有回应，让开源更好用 · Tools shaped by everyday work.</text>
+    </g>
+
+    <!-- Right Spatial Multi-Plane Optical Glass Installation -->
+    <!-- Back Tilted Glass Pane -->
+    <g filter="url(#ou-glassShadow)" transform="translate(772, 66) rotate(-7 150 110)">
+      <rect width="276" height="208" rx="24" fill="url(#ou-glassLight)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.5"/>
+    </g>
+
+    <!-- Center Sculptural Hexagonal U-Fold Glass Prism -->
+    <g filter="url(#ou-prismShadow)" transform="translate(838, 62)">
+      <!-- Left Frosted U-Hex -->
+      <path d="M18 74 L92 32 L134 56 L72 92 L72 162 L114 186 L156 162 L156 106 L194 84 L194 184 L114 230 L18 176 Z" fill="url(#ou-prismFaceFrost)" stroke="#1546c8" stroke-opacity="0.32" stroke-width="1.5" stroke-linejoin="round"/>
+      <!-- Inner Depth Bevel -->
+      <path d="M18 176 L114 230 L194 184 L194 198 L114 244 L18 190 Z" fill="#1546c8" fill-opacity="0.88"/>
+      <!-- Upper Right Luminous Azure Chevron -->
+      <path d="M114 14 L228 80 L228 192 L192 212 L192 102 L114 56 Z" fill="url(#ou-prismFaceBlue)" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.2" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Foreground Refractive Glass Shard -->
+    <g filter="url(#ou-glassShadow)" transform="translate(970, 232) rotate(5 80 34)">
+      <rect width="166" height="68" rx="16" fill="#ffffff" fill-opacity="0.72" stroke="#ffffff" stroke-width="1.5"/>
+      <circle cx="28" cy="34" r="10" fill="#1546c8" fill-opacity="0.14"/>
+      <circle cx="28" cy="34" r="4" fill="#1546c8"/>
+      <text x="48" y="31" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#0b1733">Open &amp; Clear</text>
+      <text x="48" y="48" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" fill="#425470">openurain.com</text>
+    </g>
+
+    <!-- Outer Hairline Border (Crisp on both GitHub Light & Dark) -->
+    <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="23.5" fill="none" stroke="#1546c8" stroke-opacity="0.18" stroke-width="1.5"/>
+  </g>
+</svg>
