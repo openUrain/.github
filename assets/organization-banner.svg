@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="title desc">
+<title id="title">openUrain — Building software for real needs.</title><desc id="desc">An editorial blue and white composition with translucent glass geometry.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fbfdff"/><stop offset="1" stop-color="#dceaff"/></linearGradient><linearGradient id="glass" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".92"/><stop offset="1" stop-color="#a6c9ff" stop-opacity=".32"/></linearGradient><filter id="shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="15" stdDeviation="18" flood-color="#1744b6" flood-opacity=".20"/></filter></defs>
+<rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+<circle cx="963" cy="155" r="132" fill="none" stroke="#1744b6" stroke-opacity=".14"/><circle cx="963" cy="155" r="150" fill="none" stroke="#1744b6" stroke-opacity=".08"/>
+<g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+<text x="64" y="82" font-size="24" font-weight="600" fill="#1744b6">openUrain</text>
+<text x="64" y="156" font-size="60" font-weight="700" fill="#101b30" letter-spacing="-2">Building software</text>
+<text x="64" y="224" font-size="60" font-weight="600" fill="#1744b6" letter-spacing="-2">for real needs.</text>
+</g>
+<g filter="url(#shadow)" stroke="#fff" stroke-width="2" stroke-linejoin="round"><path d="M790 72 948 36 1072 112 918 152Z" fill="url(#glass)"/><path d="M790 72 918 152 918 280 790 200Z" fill="#c6ddff" fill-opacity=".75"/><path d="M918 152 1072 112 1072 240 918 280Z" fill="url(#glass)"/><path d="M860 112 1014 72 1134 145 980 187Z" fill="url(#glass)"/></g>
+<g stroke="#1744b6" stroke-width="4" stroke-linecap="round" fill="none"><path d="M948 189l18 18 40-42"/><path d="M830 132v48m22-34v48"/></g></svg>
